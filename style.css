@@ -13,6 +13,7 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
+
 .light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
@@ -59,7 +60,7 @@ body * {
   margin-top: 8px;
 }
 
-/*switch*/
+/*-- switch*/
 
 #switch {
   position: relative;
