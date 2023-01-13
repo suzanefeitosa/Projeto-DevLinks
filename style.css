@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
 
 body * {
@@ -167,6 +168,8 @@ footer {
   font-size: 14px;
 }
 
+/* animation */
+
 @keyframes slide-in {
   from {
     left: 0;
@@ -182,5 +185,16 @@ footer {
   }
   to {
     left: 0;
+  }
+}
+
+/*media queries*/
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg)
+  }
+  .light {
+    --bg-url: url(./assets/bg.jpg)
   }
 }
